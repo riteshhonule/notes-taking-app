@@ -294,39 +294,7 @@ Set these in `.env` before deployment:
    - Click trash icon on note card
    - Confirm deletion
 
-### API Testing with cURL
 
-```bash
-# Sign up
-curl -X POST http://localhost:8000/auth/signup \
-  -H "Content-Type: application/json" \
-  -d '{
-    "user_name": "John Doe",
-    "user_email": "john@example.com",
-    "password": "password123"
-  }'
-
-# Sign in
-curl -X POST http://localhost:8000/auth/signin \
-  -H "Content-Type: application/json" \
-  -d '{
-    "user_email": "john@example.com",
-    "password": "password123"
-  }'
-
-# Get all notes (replace TOKEN with actual token)
-curl -X GET http://localhost:8000/notes \
-  -H "Authorization: Bearer TOKEN"
-
-# Create note
-curl -X POST http://localhost:8000/notes \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer TOKEN" \
-  -d '{
-    "note_title": "My First Note",
-    "note_content": "This is my first note"
-  }'
-```
 
 ## Troubleshooting
 
