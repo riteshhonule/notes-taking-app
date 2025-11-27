@@ -2,6 +2,15 @@
 
 A modern, full-stack notes-taking application built with Next.js frontend and FastAPI backend, featuring user authentication, CRUD operations, and beautiful UI with animations.
 
+# Keep Notes - Full Stack Notes Taking Application
+
+![Notes App Screenshot](/img/signup.jpeg)
+
+![Notes App Screenshot](/img/signin.jpeg)
+
+## Project Overview
+...
+
 ## Project Overview
 
 Keep Notes is a production-ready notes application that demonstrates best practices in full-stack development with:
